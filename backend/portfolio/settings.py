@@ -127,7 +127,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://future-fs-01-eight-psi.vercel.app",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS = True
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 
