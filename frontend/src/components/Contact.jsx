@@ -14,9 +14,9 @@ function Contact() {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/api/contact/",
-        form
-      );
+  "https://future-fs-01-ngpb.onrender.com/api/contact/",
+  form
+);
 
       alert("Message Sent Successfully!");
 
