@@ -123,9 +123,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://future-fs-01-eight-psi.vercel.app",
-]
+
 
 CORS_ALLOW_ALL_ORIGINS = True
 
